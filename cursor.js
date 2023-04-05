@@ -1,23 +1,16 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Hi Nushka! yar mera time table follow nai ho paya, matlab lag bhag ho paya...", 
-                   "Lekin koi na first day tha! Dhire dhire consistency ban jayegi.", 
-                   "Aur yeh website??", 
-                   "Me yeh bakchodi din bhar karta hu to socha kuch esa sa bana du....", 
-                   "Vese ", 
-                   "TUM KITNI PYAARI HO 😍!! man karta hai bas tumhe hi dekhta rahu, kitni cute si ho XD", 
-                   "ACCHA mere ghar ane ka jugad kar lena us din ese hi bol diya tha 'plan cancel' huh? 😒 Mujhse milna nai chahti rude nai to!",
-                   "Aur shayad tumko chehra dikha du...", 
-                   "Pata nai mera batsurat sa chehra dekh ke kya milega tumhe",
-                   "School me jid karna shayad dikha du varna ghar ana padega OKE",  
-                   "Mujhe intejar hai ki hum log kab ek sath rahenge, tumhe apne se ek pal ke liye bhi dur nai jane dunga! GALAT LADKE SE PALA PADA HAI.", 
-                   "Bas.... humari health!", 
-                   "Bas vo na dhokha de, kaheki ee doctor ki dawai kam nai kar rhi mereko aur checkups aur tests karane hai lekin mom dad nai manenge uske liye.", 
-                   "tumhare bhi parents mahan hi hai 😩... tumko bhi doctor ko dikhane me procarsitnate karne lag jate h", 
-                   "chalo depressing bate ho gyi, mere khyaal se meri tabiyat is 'OKE'", 
-                   "Aur ek chij kehena tha ", 
-                   "I LOVE YOU"];
+const textArray = ["¡Hola mi Nushka!", 
+                   "Aj school gyi thi?",
+		   "Mujhe dikhi nai...",
+		  "Aj kuch khas nai hua.. Yrr ID card! bc 🫠 itni badi photo bhi lagi hai uspe.",
+		  "In logo ko new pic lene me kya ja rha tha! Itni chutiya photo ayi h meri 😭",
+		  "Yeh school wale depression aur stress dene me koi kadar nai chodte!",
+		  "Accha suno ek app download krlo, 'Luveri' naam hai",
+		  "Code: JvSqaK",
+		  "Byee",
+		  "I LOVE YOU",];
 const typingDelay = 100;
 const erasingDelay = 30;
 const newTextDelay = 2000; // Delay between current and next text
